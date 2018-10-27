@@ -12,7 +12,7 @@ public class IntegerKeyTester {
 		assertTrue(key1.equals(key2));
 		assertTrue(key1.hashCode() == key2.hashCode());
 		table.put(key1, "D");
-		assertTrue(table.get(key1).equals("D"));
+		assertTrue(table.get(key2).equals("D"));
 	}
 
 }
